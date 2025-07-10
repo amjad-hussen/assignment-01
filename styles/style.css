@@ -1,5 +1,7 @@
 /* Shared Items */
-
+body{
+    background-color: rgba(77, 71, 255, 0.062);
+}
 .raleway-font{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -173,4 +175,30 @@ main{
 .user-name p{
     font-size: 16px;
     color: #B3B3B3;
+}
+
+/* Webflow Design */
+
+.webflow{
+    text-align: center;
+    margin-top: 116px;
+    background-color: white;
+    border-radius: 14px;
+    padding: 71px 0;
+}
+.webflow-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: 000000;
+    margin: 0;
+    
+}
+.webflow-description{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+.webflow-img{
+    border-radius: 48px;
+    margin: 20px 0;
 }
